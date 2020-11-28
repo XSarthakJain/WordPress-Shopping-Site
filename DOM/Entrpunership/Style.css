@@ -1,0 +1,123 @@
+body
+    {
+    	margin:0px 0px 0px 0px;
+    	padding:0px 0px 0px 0px;
+    }
+
+.back
+{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFV2TcYoUGn1WJLOK2G9iDt18So1UkqcBBbFAQPkmfajRg-NZX4g);
+width:100%;
+height:100vh;
+background-size:cover;
+background-repeat:no-repeat;
+}
+.heading1
+ {
+ 	font-family : 'Cinzel', serif ;
+color:white;
+font-size:65px;
+font-weight:bolder;
+position:absolute;
+top:25%;
+left:55px;
+ }
+
+.heading2
+ {
+ 	font-family:Arial serif;
+ 	color:red;
+ 	font-size:45px;
+ 	font-weight:normal;
+ 	position:absolute;
+ 	top:40%;
+ 	left:55px;
+ }
+ .but
+ {
+ 	color:White;
+ 	width:20%;
+ 	height:10%;
+ 	position:absolute;
+ 	top:60%;
+ 	left:30%;
+ 	cursor:pointer;
+ 	border-radius:5px;
+ 	background-color:rgba(0,0,0,0.0);
+ }
+ .but:hover
+    {
+    	background-color:blue;
+    }
+    .but1
+ {
+  color:White;
+  width:20%;
+  height:10%;
+  position:absolute;
+  top:60%;
+  left:50%;
+  cursor:pointer;
+  border-radius:5px;
+  background-color:rgba(0,0,0,0.0);
+ }
+ .but1:hover
+    {
+      background-color:red;
+    }
+    .but3{
+      color:white;
+      position:absolute;
+      top:50%;
+      left:35%;
+    }
+ 
+    .bdy
+    {
+    	background:black;
+    	color:black;
+    }
+    .opt
+      {
+      	margin-top:2%;
+      	margin-left:5%;
+      	width:20%;
+      	height:10%;
+      }
+      .input
+      {
+        width:50%;
+        height:25px;
+        border-radius:5px 5px 5px 5px;
+      }
+      .Sub
+      {
+        width:50%;
+        height:35px;
+        border-radius:5px 5px 5px 5px;
+        background-color:red;
+      }
+      .cent
+      { background:url(https://textureshot.com/wp-content/uploads/2018/11/Collection-of-10-Free-High-quality-Blurred-Backgrounds-%E2%80%93-IAN-BARNARD.jpg);
+        margin-top:5%;
+        margin-left:5%;
+        margin-right:5%;
+        padding-top:5%;
+        padding-bottom:5%;
+      }
+      .log
+      {
+        color:black;
+        background:url(https://textureshot.com/wp-content/uploads/2018/11/Collection-of-10-Free-High-quality-Blurred-Backgrounds-%E2%80%93-IAN-BARNARD.jpg);
+        padding:0px 5px 0px 5px;
+        margin-top:-10px;
+      }
+      .bgground
+      {
+        background:url(https://textureshot.com/wp-content/uploads/2018/11/Collection-of-10-Free-High-quality-Blurred-Backgrounds-%E2%80%93-IAN-BARNARD.jpg);
+      }
+     .Sign_In_Link
+     {
+     color:red;
+     text_decoration:none;
+     }

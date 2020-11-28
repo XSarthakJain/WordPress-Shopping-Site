@@ -1,0 +1,56 @@
+OTP Password
+Jaijinendra@31797
+
+
+OTP API KEY
+RuZThOvkcIo-1hhAFLlRHi0SeDJU3pAGAgWArCxkC7
+
+
+
+OTP Code->
+try {
+	// Construct data
+	String apiKey = "apikey=" + "RuZThOvkcIo-1hhAFLlRHi0SeDJU3pAGAgWArCxkC7";
+	Random rand=new Random();
+	OTP=rand.nextInt(999999);
+	String name=request.getParameter("User");
+	System.out.println("OTP = "+OTP);
+	String message = "&message=" + "Hii"+name+"Your OTP is "+OTP;
+	String sender = "&sender=" + "TSN";
+	String numbers = "&numbers=" +"8938878482"; //request.getParameter("Mobile");
+	
+	// Send data
+	HttpURLConnection conn = (HttpURLConnection) new URL("https://api.textlocal.in/send/?").openConnection();
+	String data = apiKey + numbers + message + sender;
+	conn.setDoOutput(true);
+	conn.setRequestMethod("POST");
+	conn.setRequestProperty("Content-Length", Integer.toString(data.length()));
+	conn.getOutputStream().write(data.getBytes("UTF-8"));
+	final BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+	final StringBuffer stringBuffer = new StringBuffer();
+	String line;
+	while ((line = rd.readLine()) != null) {
+		stringBuffer.append(line);
+	}
+	rd.close();
+	%>
+	<script type="text/javascript">
+	alert("Your Message has Been Send");
+	</script>
+	<%
+	//return stringBuffer.toString();
+} 
+	catch(Exception e) {
+	System.out.println("Error SMS "+e);
+	%>
+	<script type="text/javascript">
+	alert("Problem Occure");
+	</script>
+	<%
+}
+
+
+
+
+
+
