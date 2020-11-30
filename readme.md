@@ -10,8 +10,8 @@ In this busy life no one have time for shopping thats because shopping site has 
 
 ### Features
 ***
-No need of physical space for Shop.
-Online Billing with GST.
+1. No need of physical space for Shop.
+2. Online Billing with GST.
 
 
 ### Screenshots
